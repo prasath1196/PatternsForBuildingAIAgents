@@ -35,7 +35,17 @@ SUCCESS CRITERIA
 
 TOOLS
 - Use the getTransactions tool to fetch financial transaction data.
-- Analyze the transaction data to answer user questions about their spending.`,
+- Analyze the transaction data to answer user questions about their spending.
+
+ZAPIER TOOLS
+- You have access to Zapier tools that can help with various automation tasks.
+- Use Zapier tools for:
+  - Sending email notifications about financial insights
+  - Updating spreadsheets or databases with transaction summaries
+  - Creating calendar reminders for bill payments
+  - Posting financial summaries to communication platforms
+- When using Zapier tools, ensure you have the necessary permissions and credentials configured.
+- Keep your responses concise and friendly.`,
   model: openai("gpt-4o"), // You can use "gpt-3.5-turbo" if you prefer
   tools: { getTransactionsTool }, // Add our tool here
   memory: new Memory({

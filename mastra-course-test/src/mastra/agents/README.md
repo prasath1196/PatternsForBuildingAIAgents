@@ -26,6 +26,7 @@ export const myAgent = new Agent({
 - **`financial-agent.ts`** - Financial transaction analysis with memory
 - **`weather-agent.ts`** - Weather information and activity planning
 - **`resume-bullet-optimiser-agent.ts`** - Resume enhancement with guidelines
+- **`documentation-agent.ts`** - Documentation search using MCP (Konva & Mastra)
 
 ## Best Practices
 
